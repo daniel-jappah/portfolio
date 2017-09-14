@@ -1,0 +1,41 @@
+body{
+  padding:0;
+  margin:0;
+}
+.welcome{
+  width:100%;
+  /*min-height:1200px;*/
+  height:37.5vh;
+  margin-top:18.75vh;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 16px;
+  text-align:center;
+}
+h1,h2,h3,p{
+  margin:0;
+}
+.welcome__h1, .welcome__h2{
+  font-size:4.236em;
+  font-family:'Master Of Break';
+}
+.welcome__background{
+  background-color:#70b1e1;
+  grid-column:3 / 7;
+  grid-row: 1/6;
+}
+.welcome__h1{
+  grid-column: 2 / 8;
+  grid-row: 2 / 5;
+}
+.welcome__h2{
+  font-size:2.618em;
+  grid-column:2/8;
+  grid-row: 9/11;
+}
+.welcome__h3{
+  font-family:'Sailec';
+  grid-column: 2/8;
+  grid-row:7/9;
+}

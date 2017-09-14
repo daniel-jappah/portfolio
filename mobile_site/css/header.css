@@ -1,0 +1,16 @@
+*{
+  color:#022C4C;
+}
+header{
+  margin-top:2em;
+  font-size:16px;
+  text-align:center;
+}
+.header__nav{
+  font-family:'Sailec';
+  font-weight:bold;
+  text-decoration:none;
+}
+.header__nav:hover{
+  text-decoration:underline;
+}
